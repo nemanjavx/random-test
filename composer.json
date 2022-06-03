@@ -1,0 +1,29 @@
+{
+    "name": "nemanjavx/random-test",
+    "type": "pimcore-bundle",
+    "description": "Pimcore test bundle",
+    "keywords": ["pimcore"],
+    "authors": [
+        {
+            "name": "Nemanja Vukovic",
+            "email": "nemanja.vukovic@asioso.com",
+            "homepage": "https://www.asioso.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pimtestcore\\RandomBundle\\": "src/RandomBundle"
+        }
+    },
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "Pimtestcore\\RandomBundle\\RandomBundle"
+            ]
+        }
+    },
+    "require": {
+        "pimcore/pimcore": "^10.1"
+    }
+}
